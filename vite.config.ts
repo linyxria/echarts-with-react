@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'lib/main.ts'),
-      name: 'ReactECharts',
-      fileName: 'react-echarts',
+      name: 'EChartsWithReact',
+      fileName: 'echarts-with-react',
     },
     rollupOptions: {
       external: ['react', 'react/jsx-runtime', 'react-dom', 'echarts/core'],

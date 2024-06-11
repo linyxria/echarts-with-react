@@ -1,6 +1,6 @@
 {
   "name": "echarts-with-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ECharts React wrapper",
   "repository": {
     "type": "git",
@@ -15,13 +15,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/react-echarts.umd.cjs",
-  "module": "./dist/react-echarts.js",
-  "types": "./dist/react-echarts.d.ts",
+  "main": "./dist/echarts-with-react.umd.cjs",
+  "module": "./dist/echarts-with-react.js",
+  "types": "./dist/echarts-with-react.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/react-scale-adjust.js",
-      "require": "./dist/react-scale-adjust.umd.cjs"
+      "import": "./dist/echarts-with-react.js",
+      "require": "./dist/echarts-with-react.umd.cjs"
     }
   },
   "scripts": {
