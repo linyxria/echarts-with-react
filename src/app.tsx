@@ -1,8 +1,8 @@
-import { use } from 'echarts/core'
 import Chart from '../lib/chart'
+import { use } from 'echarts/core'
 import { CanvasRenderer } from 'echarts/renderers'
-import { GridComponent } from 'echarts/components'
 import { LineChart } from 'echarts/charts'
+import { GridComponent } from 'echarts/components'
 import { useEffect, useState } from 'react'
 
 use([CanvasRenderer, LineChart, GridComponent])
@@ -77,12 +77,7 @@ const App = () => {
         option={option}
         loading={loading}
         style={{ height: '100vh' }}
-        onClick={(params) => {
-          console.log('click:', params)
-        }}
-        onMouseMove={(params) => {
-          console.log('mousemove:', params)
-        }}
+        onClick={(params) => console.log('click:', params)}
       />
     </>
   )

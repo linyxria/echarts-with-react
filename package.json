@@ -1,16 +1,16 @@
 {
   "name": "echarts-with-react",
-  "version": "0.2.0",
-  "description": "ECharts React wrapper",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/linyxria/react-echarts.git"
-  },
-  "license": "MIT",
+  "version": "0.2.2",
+  "description": "React component of echarts",
   "keywords": [
     "echarts",
     "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linyxria/echarts-with-react.git"
+  },
+  "license": "MIT",
   "type": "module",
   "files": [
     "dist"
