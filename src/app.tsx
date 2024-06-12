@@ -1,5 +1,5 @@
 import { use } from 'echarts/core'
-import ECharts from '../lib/echarts'
+import Chart from '../lib/chart'
 import { CanvasRenderer } from 'echarts/renderers'
 import { GridComponent } from 'echarts/components'
 import { LineChart } from 'echarts/charts'
@@ -73,7 +73,17 @@ const App = () => {
 
   return (
     <>
-      <ECharts option={option} loading={loading} style={{ height: '100vh' }} />
+      <Chart
+        option={option}
+        loading={loading}
+        style={{ height: '100vh' }}
+        onClick={(params) => {
+          console.log('click:', params)
+        }}
+        onMouseMove={(params) => {
+          console.log('mousemove:', params)
+        }}
+      />
     </>
   )
 }

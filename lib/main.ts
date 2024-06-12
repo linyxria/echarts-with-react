@@ -1,2 +1,2 @@
-import ECharts from "./echarts";
-export default ECharts
+import Chart from './chart'
+export default Chart

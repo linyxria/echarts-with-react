@@ -1,6 +1,6 @@
 {
   "name": "echarts-with-react",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "ECharts React wrapper",
   "repository": {
     "type": "git",
