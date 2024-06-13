@@ -1,6 +1,6 @@
 {
   "name": "echarts-with-react",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "React component of echarts",
   "keywords": [
     "echarts",

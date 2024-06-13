@@ -15,6 +15,7 @@ const useOption = <Opt extends EChartsCoreOption>(
       return
     }
 
+    chartRef.current.clear()
     chartRef.current.setOption(option, {
       notMerge: option !== previousOptionRef.current,
       ...latestUpdateOptionsRef.current,
